@@ -30,3 +30,16 @@ Dockerfile文件名：Dockerfile
  2. 构建成功后，在【基础信息】中查看用法
  3. 拉取新构建成功的镜像
  4. 重新打标签
+ 
+ ```bash
+ # 拉取新构建的镜像
+docker pull registry.cn-shenzhen.aliyuncs.com/cookcodeblog/jnlp-slave-with-java-build-tools:latest
+# 打上gcr.io同名标签
+docker tag registry.cn-shenzhen.aliyuncs.com/cookcodeblog/jnlp-slave-with-java-build-tools:latest jnlp-slave-with-java-build-tools:latest
+# 查看镜像
+docker images
+# 删除新构建的镜像，只保留gcr.io镜像
+docker rmi registry.cn-shenzhen.aliyuncs.com/cookcodeblog/jnlp-slave-with-java-build-tools:latest
+# 再次查看镜像
+docker images
+```
