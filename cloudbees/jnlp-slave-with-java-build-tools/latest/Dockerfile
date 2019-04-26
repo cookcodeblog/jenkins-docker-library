@@ -1,0 +1,1 @@
+FROM cloudbees/jnlp-slave-with-java-build-tools:latest

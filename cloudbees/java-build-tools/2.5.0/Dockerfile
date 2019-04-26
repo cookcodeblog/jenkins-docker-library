@@ -1,0 +1,1 @@
+FROM cloudbees/java-build-tools:2.5.0
