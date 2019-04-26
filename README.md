@@ -14,11 +14,12 @@ Jenkins docker images
 3. 选择”代码变更时自动构建镜像“和”海外机器构建“，并填写构建信息，比如：
 
 
-
-> 代码分支：branches:master
-> Dockerfile目录：/cloudbees/jnlp-slave-with-java-build-toolst/latest
-> Dockerfile文件名：Dockerfile
-> 镜像版本：latest
+```
+代码分支：branches:master
+Dockerfile目录：/cloudbees/jnlp-slave-with-java-build-toolst/latest
+Dockerfile文件名：Dockerfile
+镜像版本：latest
+```
 
 
 
