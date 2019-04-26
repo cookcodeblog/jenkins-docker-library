@@ -8,14 +8,19 @@ Jenkins docker images
 打开阿里云容器镜像服务：https://cr.console.aliyun.com ， 新建一个镜像仓库。
 
 1. 选择离自己比较近的区域
+
 2. 按提示填写信息
+
 3. 选择”代码变更时自动构建镜像“和”海外机器构建“，并填写构建信息，比如：
 
 
-> 代码分支：branches:master 
+
+> 代码分支：branches:master
 > Dockerfile目录：/cloudbees/jnlp-slave-with-java-build-toolst/latest
-> Dockerfile文件名：Dockerfile 
+> Dockerfile文件名：Dockerfile
 > 镜像版本：latest
+
+
 
 
 ## 构建、拉取镜像和重新打标签
